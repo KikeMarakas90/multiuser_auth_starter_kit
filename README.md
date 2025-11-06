@@ -17,26 +17,34 @@ Optimized for **local development** (Alpine/iSH) and **CI/CD pipelines** (GitHub
 
 ## 🚀 Installation
 
-\`\`\`bash
 # 1️⃣ Create virtual environment
+
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
+```
 
 # 2️⃣ Install dependencies
+
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ---
 
 ## ▶️ Usage
 
-\`\`\`bash
 # Run the main application
+
+```bash
 python main.py
+```
 
 # Run automated tests
+
+```bash
 pytest
-\`\`\`
+```
 
 ---
 
@@ -44,11 +52,12 @@ pytest
 
 Set the following environment variables (e.g., in `.env`):
 
-\`\`\`env
+```bash
+.env
 SECRET_KEY=super_secret_key
 ENVIRONMENT=development
 SESSION_EXP_MINUTES=30
-\`\`\`
+```
 
 ---
 
@@ -66,9 +75,9 @@ The project includes a workflow example to:
 
 To run tests:
 
-\`\`\`bash
+```bash
 pytest
-\`\`\`
+```
 
 ---
 
